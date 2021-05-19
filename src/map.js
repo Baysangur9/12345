@@ -30,5 +30,3 @@ const firstLetters = (words) => {
 
   return letters
 }
-
-module.exports = { exclamations, squareAll, firstLetters };

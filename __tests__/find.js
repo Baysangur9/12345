@@ -1,5 +1,3 @@
-const {firstUnder, startsWith } = require('../find');
-
 describe('finding a number under a limit', () => {
   it('returns the first number under the given limit', () => {
     const limit = 10;

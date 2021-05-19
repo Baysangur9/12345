@@ -1,4 +1,3 @@
-const { sum, hyphenate } = require('../reduce');
 
 describe('sum', () => {
   it('sums the numbers', () => {

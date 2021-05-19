@@ -1,4 +1,3 @@
-const { squareAll, firstLetters, exclamations } = require('../map');
 
 describe('exclamations', () => {
   it('returns a new array with each string an exclamation mark added', () => {

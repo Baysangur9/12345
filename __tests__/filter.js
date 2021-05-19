@@ -1,5 +1,3 @@
-const { oddIntegers, longStrings, getNotEmptyPhoneNumbers } = require("../filter");
-
 describe('oddIntegers', () => {
   it('returns a new collection with any odd integers', () => {
     const numbers = [3, 4, 7, 9, 10, 16]

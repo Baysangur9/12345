@@ -1,11 +1,3 @@
-const {
-  containingQuotes,
-  evenLengthWord,
-  balance,
-  initials,
-  pairAbbreviations,
-  snippets } = require("../define-methods");
-
 describe('containingQuotes', () => {
   it('returns a new array containing the sentences with quotes in them', () => {
     const sentences = ['Someone yelled, "Oi!"', 'They went thataway!', 'They sang, "Oo-ee-oo ..."']

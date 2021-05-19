@@ -22,5 +22,3 @@ const hyphenate = (words) => {
 
   return hyphenatedWords;
 }
-
-module.exports = { sum, hyphenate };

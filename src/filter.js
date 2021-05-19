@@ -34,4 +34,3 @@ const getNotEmptyPhoneNumbers = (phoneNumbers) => {
   return notEmpty;
 }
 
-module.exports = { oddIntegers, longStrings, getNotEmptyPhoneNumbers };

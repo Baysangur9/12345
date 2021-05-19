@@ -77,12 +77,3 @@ const snippet = (sentence, desiredWordCount = 3) => {
 
   return sentence.replace(pattern, '$1...')
 }
-
-module.exports = {
-  containingQuotes,
-  balance,
-  initials,
-  evenLengthWord,
-  pairAbbreviations,
-  snippets
-}
