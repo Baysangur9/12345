@@ -1,8 +1,8 @@
-const oddIntegers = (numbers) => {
+function oddIntegers(numbers) {
   const odds = [];
 
   for (let i = 0; i < numbers.length; i++) {
-    if(numbers[i] % 2 === 1) {
+    if (numbers[i] % 2 === 1) {
       odds.push(numbers[i]);
     }
   }
@@ -10,11 +10,11 @@ const oddIntegers = (numbers) => {
   return odds;
 }
 
-const longStrings = (strings, minimumLength) => {
+function longStrings(strings, minimumLength) {
   const longs = [];
 
   for (let i = 0; i < strings.length; i++) {
-    if(strings[i].length >= minimumLength) {
+    if (strings[i].length >= minimumLength) {
       longs.push(strings[i]);
     }
   }
@@ -22,15 +22,14 @@ const longStrings = (strings, minimumLength) => {
   return longs;
 }
 
-const getNotEmptyPhoneNumbers = (phoneNumbers) => {
+function getNotEmptyPhoneNumbers(phoneNumbers) {
   const notEmpty = [];
 
   for (let i = 0; i < phoneNumbers.length; i++) {
-    if(phoneNumbers[i].phone !== undefined) {
+    if (phoneNumbers[i].phone !== undefined) {
       notEmpty.push(phoneNumbers[i]);
     }
   }
 
   return notEmpty;
 }
-

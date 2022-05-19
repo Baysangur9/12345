@@ -1,16 +1,16 @@
 /* добавляет восклицательный знак в конец каждого элемента массива */
-const exclamations = (strings) => {
+function exclamations(strings) {
   const loudStrings = [];
 
   for (let i = 0; i < strings.length; i++) {
-    loudStrings.push(strings[i] + "!");
+    loudStrings.push(strings[i] + '!');
   }
 
   return loudStrings;
 }
 
 /* преобразует все числа из массива в квадрат */
-const squareAll = (numbers) => {
+function squareAll(numbers) {
   const squares = [];
 
   for (let i = 0; i < numbers.length; i++) {
@@ -21,12 +21,12 @@ const squareAll = (numbers) => {
 }
 
 /* заменяет все слова в массиве на их первые буквы */
-const firstLetters = (words) => {
-  const letters = []
+function firstLetters(words) {
+  const letters = [];
 
   for (let i = 0; i < words.length; i++) {
     letters.push(words[i][0]);
   }
 
-  return letters
+  return letters;
 }
