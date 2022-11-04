@@ -1,32 +1,34 @@
-/* добавляет восклицательный знак в конец каждого элемента массива */
-function exclamations(strings) {
-  const loudStrings = [];
+// ищем число в массиве numbers, которое меньше чем limit
+function firstUnder(numbers, limit) {
+  // for (let i = 0; i < numbers.length; i++) {
+  //   if (numbers[i] < limit) {
+  //     return numbers[i];
+  //   }
+  // }
 
-  for (let i = 0; i < strings.length; i++) {
-    loudStrings.push(strings[i] + '!');
-  }
+  // return undefined;
+  
+  const num = numbers.find(function(item){
+    return item < limit
+  })
+   
+  return num
 
-  return loudStrings;
 }
 
-/* преобразует все числа из массива в квадрат */
-function squareAll(numbers) {
-  const squares = [];
+// ищет строку в массиве strings, которая начинается с указанной буквы
+function startsWith(strings, letter) {
+  // for (let i = 0; i < strings.length; i++) {
+  //   if (strings[i][0] === letter) {
+  //     return strings[i];
+  //   }
+  // }
 
-  for (let i = 0; i < numbers.length; i++) {
-    squares.push(numbers[i] * numbers[i]);
-  }
+  // return undefined;
 
-  return squares;
-}
 
-/* заменяет все слова в массиве на их первые буквы */
-function firstLetters(words) {
-  const letters = [];
-
-  for (let i = 0; i < words.length; i++) {
-    letters.push(words[i][0]);
-  }
-
-  return letters;
+  const str = strings.find(function(item){
+     return item[0] === letter
+  })
+   return str
 }
